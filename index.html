@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Вёрстка</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <div class="logo">
+        <a class="logo-img-link" href="#">
+          <img src="./img/logo.svg" alt="logo">
+        </a>
+        <a class="logo-text" href="#">CRAPPO</a>
+      </div>
+      <nav class="header-navigation">
+        <ul class="navigation rubik-400">
+          <li class="header-navigation__item"><a class="header-navigation__link" href="#">Products</a></li>
+          <li class="header-navigation__item"><a class="header-navigation__link" href="#">Features</a></li>
+          <li class="header-navigation__item"><a class="header-navigation__link" href="#">About</a></li>
+          <li class="header-navigation__item"><a class="header-navigation__link" href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="account-activities rubik-500">
+        <div class="login">
+          <a href="#">Login</a>
+        </div>
+        <div class="divider"></div>
+        <div class="account-activities__button">
+          <a href="#">Register</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro">
+      <div class="container intro-container">
+        <div class="intro-description">
+          <div class="intro-description__blue">
+            <div class="intro-description__white rubik-500">75% SAVE</div>
+            <span class="intro-description__blue__span rubik-400">For the Black Friday weekend</span>
+          </div>
+          <h1 class="intro-description__h1 rubik-700-bold">Fastest & secure<br>
+            platform to invest<br>
+            in crypto</h1>
+          <p class="intro-description__p rubik-400">Buy and sell cryptocurrencies, trusted by 10M wallets<br> 
+            with over $30 billion in transactions.
+          </p>
+          <div class="account-activities__button intro-description__button">
+            <a class="rubik-500 intro-description__button-link" href="#">Try for FREE</a>
+            <img class="arrow_right" src="./img/arrow_right.svg" alt="arrow_right">
+          </div>
+        </div>
+        <div class="intro-img">
+          <img src="./img/bitcoin.svg" alt="bitcoin">
+        </div>
+      </div>
+    </section>
+
+    <section class="why">
+      <div class="container why-container">
+        <div class="cards">
+          <div class="cards__item">
+            <div class="cards__item-icon">
+              <img src="./img/bar_chart.svg" alt="icon-bar-chart">
+            </div>
+            <div class="cards__item-description">
+              <h2 class="rubik-700-bold cards__item-description-h2">$30B</h2>
+              <p clas="rubik-400">Digital Currency Exchanged</p>
+            </div>
+          </div>
+          <div class="cards__item">
+            <div class="cards__item-icon">
+              <img src="./img/person.svg" alt="icon-person">
+            </div>
+            <div class="cards__item-description">
+              <h2 class="rubik-700-bold cards__item-description-h2">10M+</h2>
+              <p clas="rubik-400">Trusted Wallets Investor</p>
+            </div>
+          </div>
+          <div class="cards__item">
+            <div class="cards__item-icon">
+              <img src="./img/earth.svg" alt="icon-earth">
+            </div>
+            <div class="cards__item-description">
+              <h2 class="rubik-700-bold cards__item-description-h2">195</h2>
+              <p clas="rubik-400">Countries Supported</p>
+            </div>
+          </div>
+        </div>
+        <div class="why-content">
+          <div class="why-img">
+            <img src="./img/compas.svg" alt="compas">
+          </div>
+          <div class="why-content__description">
+            <h2 class="why-content__description__h2 rubik-700-bold">Why you should choose<br>
+              CRAPPO
+            </h2>
+            <p class="intro-description__p why-description__p rubik-400">
+              Experience the next generation cryptocurrency<br>
+              platform. No financial borders, extra fees, and fake<br>
+              reviews.
+            </p>
+            <div class="account-activities__button intro-description__button why-button">
+              <a class="rubik-500 intro-description__button-link" href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trade">
+      <div class="container trade-container">
+        <div class="trade-checker">
+          <h2 class="trade-checker__h2 rubik-700-bold">
+            Check how much you can earn
+          </h2>
+          <p class="trade-checker__p rubik-400">
+            Let’s check your hash rate to see how much you will earn today,<br>
+            Exercitation veniam consequat sunt nostrud amet.
+          </p>
+          <div class="calculator">
+            <form class="calculator-form rubik-400" action="#">
+              <input class="calculator-form__input" type="text" placeholder="Enter your hash rate">
+              <select class="calculator-form__dropdown">
+                <option>TH/s</option>
+                <option>TH/s</option>
+                <option>TH/s</option>
+                <option>TH/s</option>
+              </select>
+              <div class="calculator-form__btn rubik-500">
+                <a href="#">Calculate</a>
+              </div>
+            </form>
+            <div class="calculator-info">
+              <span class="rubik-500 blue-text">ESTIMATED 24 HOUR REVENUE:</span>
+              <span class="rubik-700-bold dark-black-text calculator-500">0.055 130 59 ETH<span
+                  class="blue-text">($1275)</span></span>
+              <p class="grey-text calculator-p">
+                Revenue will change based on mining difficulty and Ethereum price.
+              </p>
+            </div>
+          </div>
+          <h2 class="trade-h2-global rubik-700-bold">Trade securely and market the high<br>
+            growth cryptocurrencies.
+          </h2>
+          <div class="trade-cards">
+            <div class="trade-card">
+              <div class="trade-card__img">
+                <img src="./img/bitcoin_ic.svg" alt="bitcoin-icon">
+              </div>
+              <div class="trade-card__h2-span">
+                <h3 class="rubik-700-bold">Bitcoin</h3>
+                <span>BTC</span>
+              </div>
+              <p>Digital currency in which a record of<br>
+                transactions is maintained.</p>
+              <div class="trade-card__button">
+                <img class="arrow_right" src="./img/arrow_right_bordered.svg" alt="arrow_right">
+              </div>
+            </div>
+
+            <div class="trade-card">
+              <div class="trade-card__img">
+                <img src="./img/sims_ic.svg" alt="sims-icon">
+              </div>
+              <div class="trade-card__h2-span">
+                <h3 class="rubik-700-bold">Ethereum</h3>
+                <span>ETH</span>
+              </div>
+              <p>Blockchain technology to create and run<br>
+                decentralized digital applications.</p>
+              <div class="trade-card__button">
+                <img class="arrow_right" src="./img/arrow_right_bordered.svg" alt="arrow_right">
+              </div>
+            </div>
+
+            <div class="trade-card">
+              <div class="trade-card__img">
+                <img src="./img/litecoin_ic.svg" alt="litecoin-icon">
+              </div>
+              <div class="trade-card__h2-span">
+                <h3 class="rubik-700-bold">Litecoin</h3>
+                <span class="rubik-500">LTC</span>
+              </div>
+              <p>Cryptocurrency that enables instant<br>
+                payments to anyone in the world.</p>
+              <div class="trade-card__button">
+                <img class="arrow_right" src="./img/arrow_right_bordered.svg" alt="arrow_right">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container features-container">
+        <h2 class="rubik-700 features-container__h2">
+          Market sentiments, portfolio, and run<br>
+          the infrastructure of your choice
+        </h2>
+        <div class="invest-smart">
+          <div class="invest-smart__description">
+            <h3 class="rubik-700 invest-smart__description-h3">
+              Invest Smart
+            </h3>
+            <p class="rubik-400 invest-smart__description-p">
+              Get full statistic information about the behaviour of<br>
+              buyers and sellers will help you to make the decision.
+            </p>
+            <div class="account-activities__button intro-description__button why-button learn-more-btn">
+              <a class="rubik-500 intro-description__button-link learn-more-custom" href="#">Learn More</a>
+            </div>
+          </div>
+          <div class="invest-smart__bar-chart">
+            <div class="bar-chart__main-item">
+              <div class="bar-chart__main-item__group">
+                <div class="bar-chart__info">
+                  <div class="bar-chart__bitcoin">
+                    <img src="./img/bar_chart_bitcoin.svg" alt="bitcoin-icon">
+                  </div>
+                  <div class="bar-chart__info-small">
+                    <div class="bar-chart-main">
+                      <h3 class="rubik-700-bold">Bitcoin</h3>
+                      <span>BTC</span>
+                    </div>
+                    <span>0.00080 BTC</span>
+                  </div>
+                </div>
+                <span class="neon-span">+125%</span>
+              </div>
+              <img src="./img/bar_chart_line.svg" alt="bar-chart">
+            </div>
+          </div>
+        </div>
+        <div class="two-small-cards">
+          <div class="two-small-cards__item-1">
+            <span class="two-small-cards__item-1__span-1">
+              Increase in<br>
+              Trade
+            </span>
+            <span class="two-small-cards__item-1__span-2">
+              +75%
+            </span>
+            <p>
+              Sell option
+            </p>
+          </div>
+          <div class="two-small-cards__item-2">
+            <span>$15.32</span>
+            <p>Price in dollar</p>
+          </div>
+        </div>
+        <div class="statistic">
+          <div class="statistic-img">
+            <img src="./img/statistic.png" alt="statistic-chart">
+          </div>
+          <div class="invest-smart__description statistic__description">
+            <h3 class="rubik-700 invest-smart__description-h3">
+              Detailed Statistics
+            </h3>
+            <p class="rubik-400 invest-smart__description-p">
+              View all mining related information in realtime, at any<br>
+              point at any location and decide which polls you want<br>
+              to mine in.
+            </p>
+            <div class="account-activities__button intro-description__button why-button learn-more-btn">
+              <a class="rubik-500 intro-description__button-link learn-more-custom" href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="invest-smart grow">
+          <div class="invest-smart__description grow__description">
+            <h3 class="rubik-700 invest-smart__description-h3">
+              Grow your profit and track<br>
+              your investments
+            </h3>
+            <p class="rubik-400 invest-smart__description-p">
+              Use advanced analytical tools. Clear TradingView<br>
+              charts let you track current and historical profit<br>
+              investments.
+            </p>
+            <div class="account-activities__button intro-description__button why-button learn-more-btn">
+              <a class="rubik-500 intro-description__button-link learn-more-custom" href="#">Learn More</a>
+            </div>
+          </div>
+          <div class="bar-chart__main-item big-card">
+            <div class="grow-titles">
+              <span>Price</span>
+              <span class="grow-titles__span-2">Change</span>
+              <span>Volume (24h)</span>
+            </div>
+            <div class="bar-chart__main-item__group grow-item-1">
+              <div class="icon-and-info-block">
+                <div class="bar-chart__bitcoin">
+                  <img src="./img/bar_chart_bitcoin.svg" alt="bitcoin-icon">
+                </div>
+                <div class="bar-chart__info-small grow-item-1__span">
+                  <div class="bar-chart-main graph">
+                    <h3 class="rubik-700-bold">BTC</h3>
+                  </div>
+                  <span>Bitcoin</span>
+                </div>
+              </div>
+              <span class="price-dollars grow-item-1__span">$6750</span>
+              <div class="arrow-and-percent grow-item-1__span">
+                <img src="./img/green-arrow.svg" alt="green-arrow">
+                <span class="percent">+7.3%</span>
+              </div>
+              <span class="volume-dollars grow-item-1__span">$3420214</span>
+            </div>
+          
+            <div class="bar-chart__main-item__group grow-item-1 grow-item-middle">
+              <div class="icon-and-info-block">
+                <div class="bar-chart__bitcoin">
+                  <img src="./img/ethereum.svg" alt="bitcoin-icon">
+                </div>
+                <div class="bar-chart__info-small grow-item-1__span">
+                  <div class="bar-chart-main graph">
+                    <h3 class="rubik-700-bold">ETH</h3>
+                  </div>
+                  <span>Ethereum</span>
+                </div>
+              </div>
+              <span class="price-dollars grow-item-1__span">$156.83</span>
+              <div class="arrow-and-percent grow-item-1__span">
+                <img src="./img/red-arrow.svg" alt="red-arrow">
+                <span class="percent">-0.9%</span>
+              </div>
+              <span class="volume-dollars grow-item-1__span">$1812350</span>
+            </div>
+          
+            <div class="bar-chart__main-item__group grow-item-1">
+              <div class="icon-and-info-block">
+                <div class="bar-chart__bitcoin">
+                  <img src="./img/lite.svg" alt="bitcoin-icon">
+                </div>
+                <div class="bar-chart__info-small grow-item-1__span">
+                  <div class="bar-chart-main graph">
+                    <h3 class="rubik-700-bold">LTC</h3>
+                  </div>
+                  <span>Litecoin</span>
+                </div>
+              </div>
+              <span class="price-dollars grow-item-1__span">$8535</span>
+              <div class="arrow-and-percent grow-item-1__span">
+                <img src="./img/green-arrow.svg" alt="green-arrow">
+                <span class="percent">+8.2%</span>
+              </div>
+              <span class="volume-dollars grow-item-1__span">$5820399</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mining">
+      <div class="container mining-container">
+        <div class="mining-container__description">
+          <h3>Start mining now</h3>
+          <p>Join now with CRAPPO to get the latest news<br>
+            and start mining now</p>
+        </div>
+        <div>
+          <form class="subscribe-form" action="#">
+            <input type="email" placeholder="Enter your email">
+            <a class="subscribe-link" href="#">
+              <div class="subscribe-btn rubik-500">Subscribe</div>
+            </a>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-container__1">
+        <div class="logo footer-logo">
+          <a class="logo-img-link" href="#">
+            <img src="./img/logo.svg" alt="logo">
+          </a>
+          <a class="logo-text" href="#">CRAPPO</a>
+        </div>
+        <div class="standard-list">
+          <div class="standard-list__span">
+            <span>Quick Link</span>
+          </div>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="standard-list">
+          <div class="standard-list__span">
+            <span>Resources</span>
+          </div>
+          <ul>
+            <li><a href="#">Download Whitepapper</a></li>
+            <li><a href="#">Smart Tocken</a></li>
+            <li><a href="#">Blockchain Explorer</a></li>
+            <li><a href="#">Crypto API</a></li>
+            <li><a href="#">Interest</a></li>
+          </ul>
+        </div>
+        <div class="cards-pay">
+          <span class="accept-pays">
+            We accept following payment systems
+          </span>
+          <div class="kind-of-pays">
+            <div>
+              <img src="./img/visa_pay.svg" alt="visa">
+            </div>
+            <div>
+              <img src="./img/mastercard_pay.svg" alt="mastercard">
+            </div>
+            <div>
+              <img src="./img/bitcoin_pay.svg" alt="bitcoin">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-container__2">
+        <div class="copyright">
+          <span>©2021 CRAPPO. All rights reserved</span>
+        </div>
+        <div class="social-links">
+          <a href="#">
+            <img src="./img/fb.svg" alt="facebook">
+          </a>
+          <a href="#">
+            <img src="./img/ig.svg" alt="instagram">
+          </a>
+          <a href="#">
+            <img src="./img/yt.svg" alt="youtube">
+          </a>
+          <a href="#">
+            <img src="./img/twit.svg" alt="twitter">
+          </a>
+          <a href="#">
+            <img src="./img/in.svg" alt="linkedin">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
